@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+
+:root {
+    --main-bg-color: rgb(69, 152, 226);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 107px;
+    padding: 0 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: black;
+    font-weight: bolder;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+.search input {
+    width: 30vw;
+    height: 30px;
+    border-radius: 10px;
+    margin: 0 10px 0 10px;
+    padding: 0 12px;
+}
+
+.slider {
+    margin: 5px auto;
+    width: 73vw;
+    overflow: hidden;
+}
+.card{
+    max-width: 82vw;
+    margin: auto;
+}
+.cards2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: scroll;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 22px;
+}
+.container {
+    min-height: calc(100vh - 60px - 12vh);
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
