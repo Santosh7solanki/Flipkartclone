@@ -1,2 +1,2 @@
 # Flipkartclone
-This the Flipkart Clone website. Its developed in using in HTML/CSS by me. 
+I have Create a home page for an E commerce website using HTML CSS. It project is clone of flip kart website home page.
